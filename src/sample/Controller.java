@@ -235,7 +235,9 @@ public class Controller {
             System.out.println("WIN");
         }
 
-        else{
+        else if(!btn1.getText().equals("") && !btn2.getText().equals("") && !btn3.getText().equals("") && !btn4.getText().equals("") && !btn5.getText().equals("") &&
+                !btn6.getText().equals("") && !btn7.getText().equals("") && !btn8.getText().equals("") && !btn9.getText().equals("")){
+            msgLabel.setText("Draw");
             System.out.println("Draw");
         }
     }
@@ -252,17 +254,6 @@ public class Controller {
         btn9.setText("");
         msgLabel.setText("Play");
     }
-
-
-
-
-
-
-
-
-
-
-
 
 }
 
