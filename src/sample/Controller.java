@@ -1,25 +1,10 @@
 package sample;
 
-
-import javafx.collections.ObservableList;
-import javafx.scene.Node;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.layout.Pane;
 
-import java.awt.*;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
-import java.util.List;
-
-import static java.awt.Color.*;
-
 public class Controller {
-
-//    @Override
-//    public void initialize(URL location, ResourceBundle resources) {
-// implements Initializable
-//    }
 
     public Button btn1;
     public Button btn2;
