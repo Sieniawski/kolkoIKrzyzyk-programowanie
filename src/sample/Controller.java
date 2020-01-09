@@ -35,6 +35,8 @@ public class Controller {
 
     public Label msgLabel;
 
+    public Button replayButton;
+
     public int x_or_o;
 
     public Controller() {
@@ -232,6 +234,23 @@ public class Controller {
             winEffect(btn3, btn5, btn7);
             System.out.println("WIN");
         }
+
+        else{
+            System.out.println("Draw");
+        }
+    }
+
+    public void doNewGame() {
+        btn1.setText("");
+        btn2.setText("");
+        btn3.setText("");
+        btn4.setText("");
+        btn5.setText("");
+        btn6.setText("");
+        btn7.setText("");
+        btn8.setText("");
+        btn9.setText("");
+        msgLabel.setText("Play");
     }
 
 
